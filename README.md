@@ -85,3 +85,6 @@ Gradle user home.
     > Task :build
     ```
     _Remark_: `compileJava` is taken from cache
+
+* For educational purposes we've committed exemplary `build-cache`
+directory.
