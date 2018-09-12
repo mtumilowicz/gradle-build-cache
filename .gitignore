@@ -16,5 +16,6 @@ gradle-app.setting
 # gradle/wrapper/gradle-wrapper.properties
 
 .idea/
+build-cache/
 src/main/resources/
 src/test/
