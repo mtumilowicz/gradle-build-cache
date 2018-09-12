@@ -1,2 +1,8 @@
 rootProject.name = 'gradle-build-cache'
 
+buildCache {
+    local(DirectoryBuildCache) {
+        directory = new File(rootDir, 'build-cache')
+        removeUnusedEntriesAfterDays = 30
+    }
+}
